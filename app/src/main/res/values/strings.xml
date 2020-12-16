@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Attention</string>
+    <string name="emotional">emotional attention</string>
+    <string name="physical">physical attention</string>
+    <string name="want">i want...</string>
+    <string name="eqtime">quality time</string>
+    <string name="emconv">meaningful conversation</string>
+    <string name="echeckin">emotional check-in</string>
+    <string name="elisten">a listening ear</string>
+    <string name="elogic">logical help/ideas</string>
+    <string name="phug">hugs</string>
+    <string name="pkiss">kisses</string>
+    <string name="psex">sex</string>
+    <string name="pcuddles">cuddles</string>
+    <string name="pmassage">massage</string>
+</resources>
