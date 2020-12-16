@@ -13,4 +13,7 @@
     <string name="psex">sex</string>
     <string name="pcuddles">cuddles</string>
     <string name="pmassage">massage</string>
+    <string name="welcome">welcome! please enter the phone number of the person you would like to communicate with. this can be changed later.</string>
+    <string name="phhint">enter phone number</string>
+    <string name="submit">submit</string>
 </resources>
