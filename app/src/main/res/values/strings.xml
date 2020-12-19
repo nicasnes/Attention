@@ -1,9 +1,9 @@
 <resources>
     <!-- Main Activity -->
     <string name="app_name">Attention</string>
-    <string name="emotional">emotional attention</string>
-    <string name="physical">physical attention</string>
-    <string name="want">i want...</string>
+    <string name="emotional">emotional</string>
+    <string name="physical">physical</string>
+    <string name="want">i want to communicate something...</string>
 
     <!-- Emotional Attention Page -->
     <string name="eqtime">quality time</string>
