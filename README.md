@@ -1,2 +1,5 @@
-# Attention
- Android application to assist communication in relationships.
+# Communication
+
+An Android application with the goal of assisting communication in relationships.
+ 
+ ![Main Activity demonstration](ghttps://i.imgur.com/cdtlxb2.png)
