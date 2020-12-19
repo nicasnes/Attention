@@ -1,6 +1,6 @@
 <resources>
     <!-- Main Activity -->
-    <string name="app_name">Attention</string>
+    <string name="app_name">Communicator</string>
     <string name="emotional">emotional</string>
     <string name="physical">physical</string>
     <string name="want">i want to communicate something...</string>
