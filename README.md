@@ -1,4 +1,4 @@
-# Communication
+# Communicator
 
 An Android application with the goal of assisting communication in relationships.
  
