@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 
 class SettingsActivity : AppCompatActivity() {
 
@@ -40,6 +41,7 @@ class SettingsActivity : AppCompatActivity() {
         if (newPhone.text.toString() != "000") {
             settings.edit().putString("phoneNumber", newPhone.text.toString()).apply()
         }
+        Toast.makeText(applicationContext,"Settings succesfully submitted.", Toast.LENGTH_LONG).show();
         finish()
     }
 }
