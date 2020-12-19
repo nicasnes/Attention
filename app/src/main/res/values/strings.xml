@@ -22,7 +22,7 @@
     <!-- Settings -->
     <string name="settings">settings</string>
     <string name="curphone">current phone number: </string>
-    <string name="curphonenum">________</string>
+    <string name="curphonenum">____________________</string>
     <string name="newphone">new phone number: </string>
 
     <!-- Miscellaneous -->

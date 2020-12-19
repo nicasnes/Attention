@@ -4,86 +4,93 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#e4c8c2"
     tools:context=".SettingsActivity">
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="211dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="64dp"
+        android:layout_width="259dp"
+        android:layout_height="106dp"
         android:gravity="center"
         android:text="@string/settings"
-        android:textSize="24sp"
+        android:textAppearance="@style/TextHeader"
+        android:textSize="50sp"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.312" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
+        android:layout_width="247dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
         android:text="@string/curphone"
+        android:textAppearance="@style/Text"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/curPhone"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/curPhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="68dp"
+        android:layout_marginBottom="44dp"
+        android:gravity="center"
         android:text="@string/curphonenum"
+        android:textAppearance="@style/Text"
         app:layout_constraintBottom_toTopOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editTextPhone2"
         android:layout_width="227dp"
         android:layout_height="59dp"
-        android:layout_marginBottom="88dp"
+        android:layout_marginBottom="284dp"
+        android:autofillHints=""
         android:ems="10"
-        android:gravity="center|center_horizontal"
+        android:gravity="center"
         android:hint="@string/phhint"
         android:inputType="phone"
+        android:textAppearance="@style/Text"
+        android:textColor="#8D8D8D"
+        android:textColorHint="#8D8D8D"
         app:layout_constraintBottom_toTopOf="@+id/button14"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        android:autofillHints="" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="227dp"
+        android:layout_height="32dp"
         android:layout_marginBottom="24dp"
+        android:gravity="center"
         android:text="@string/newphone"
+        android:textAppearance="@style/Text"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/editTextPhone2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/curPhone" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="320dp"
+        android:layout_width="157dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/button"
+        android:onClick="onSubmit"
         android:text="@string/submit"
         android:textAllCaps="false"
-        android:onClick="onSubmit"
+        android:textAppearance="@style/Text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPhone2" />
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
