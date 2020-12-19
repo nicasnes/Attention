@@ -1,6 +1,5 @@
-<p align="center">
 # Communicator
-
+<p align="center">
 An Android application with the goal of assisting communication in relationships.
 
 
