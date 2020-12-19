@@ -9,7 +9,7 @@
 
     <Button
         android:id="@+id/button8"
-        android:layout_width="157dp"
+        android:layout_width="175dp"
         android:layout_height="50dp"
         android:background="@drawable/button"
         android:onClick="sendHugs"
@@ -23,7 +23,7 @@
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="157dp"
+        android:layout_width="175dp"
         android:layout_height="50dp"
         android:background="@drawable/button"
         android:onClick="sendKiss"
@@ -37,7 +37,7 @@
 
     <Button
         android:id="@+id/button10"
-        android:layout_width="157dp"
+        android:layout_width="175dp"
         android:layout_height="50dp"
         android:background="@drawable/button"
         android:onClick="sendSex"
@@ -51,7 +51,7 @@
 
     <Button
         android:id="@+id/button11"
-        android:layout_width="157dp"
+        android:layout_width="175dp"
         android:layout_height="50dp"
         android:background="@drawable/button"
         android:onClick="sendMassage"
@@ -65,7 +65,7 @@
 
     <Button
         android:id="@+id/button12"
-        android:layout_width="157dp"
+        android:layout_width="175dp"
         android:layout_height="50dp"
         android:background="@drawable/button"
         android:onClick="sendCuddles"
