@@ -1,19 +1,33 @@
 <resources>
+    <!-- Main Activity -->
     <string name="app_name">Attention</string>
     <string name="emotional">emotional attention</string>
     <string name="physical">physical attention</string>
     <string name="want">i want...</string>
+
+    <!-- Emotional Attention Page -->
     <string name="eqtime">quality time</string>
     <string name="emconv">meaningful conversation</string>
     <string name="echeckin">emotional check-in</string>
     <string name="elisten">a listening ear</string>
     <string name="elogic">logical help/ideas</string>
+
+    <!-- Physical Attention Page -->
     <string name="phug">hugs</string>
     <string name="pkiss">kisses</string>
     <string name="psex">sex</string>
     <string name="pcuddles">cuddles</string>
     <string name="pmassage">massage</string>
+
+    <!-- Settings -->
+    <string name="settings">settings</string>
+    <string name="curphone">current phone number: </string>
+    <string name="curphonenum">________</string>
+    <string name="newphone">new phone number: </string>
+
+    <!-- Miscellaneous -->
     <string name="welcome">welcome! please enter the phone number of the person you would like to communicate with. this can be changed later.</string>
     <string name="phhint">enter phone number</string>
     <string name="submit">submit</string>
+
 </resources>
