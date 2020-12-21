@@ -22,23 +22,23 @@ class PhysicalPromptsActivity : AppCompatActivity() {
      */
 
     fun sendHugs(view: View) {
-        sendSMS("Hugs")
+        sendSMS(getString(R.string.textheader) + getString(R.string.phug))
     }
 
     fun sendKiss(view: View) {
-        sendSMS("Kisses")
+        sendSMS(getString(R.string.textheader) + getString(R.string.pkiss))
     }
 
     fun sendSex(view: View) {
-        sendSMS("Sex")
+        sendSMS(getString(R.string.textheader) + getString(R.string.psex))
     }
 
     fun sendMassage(view: View) {
-        sendSMS("Massage")
+        sendSMS(getString(R.string.textheader) + getString(R.string.pmassage))
     }
 
     fun sendCuddles(view: View) {
-        sendSMS("Cuddles")
+        sendSMS(getString(R.string.textheader) + getString(R.string.pcuddles))
     }
 
     /**

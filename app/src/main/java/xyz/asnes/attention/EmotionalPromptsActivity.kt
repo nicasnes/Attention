@@ -22,23 +22,23 @@ class EmotionalPromptsActivity : AppCompatActivity() {
      */
 
     fun sendTime(view: View) {
-        sendSMS("Quality time")
+        sendSMS(getString(R.string.textheader) + getString(R.string.eqtime))
     }
 
     fun sendConv(view: View) {
-        sendSMS("Meaningful conversation")
+        sendSMS(getString(R.string.textheader) + getString(R.string.emconv))
     }
 
     fun sendCheckin(view: View) {
-        sendSMS("Emotional check-in")
+        sendSMS(getString(R.string.textheader) + getString(R.string.echeckin))
     }
 
     fun sendListen(view: View) {
-        sendSMS("Listening ear")
+        sendSMS(getString(R.string.textheader) + getString(R.string.elisten))
     }
 
     fun sendLogic(view: View) {
-        sendSMS("Logical support")
+        sendSMS(getString(R.string.textheader) + getString(R.string.elogic))
     }
 
 
